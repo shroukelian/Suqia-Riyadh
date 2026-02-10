@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سُقيا الرياض | وايت مياه 6 طن جنوب وشرق الرياض</title>
+    <!-- خط القاهرة -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- الأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- الهيدر -->
+  <header class="main-header">
+    <div class="container navbar">
+        <!-- اللوجو -->
+        <div class="logo" onclick="location.href='#home'" style="cursor:pointer">
+            <div class="logo-icon"><i class="fas fa-droplet"></i></div>
+            <div class="logo-text">
+                <h1>سُقيا الرياض</h1>
+                <span>للمياه العذبة</span>
+            </div>
+        </div>
+
+        <!-- القائمة الرئيسية -->
+        <nav id="nav-menu">
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#process">كيف تطلب؟</a></li>
+                <li><a href="#faq">الأسئلة الشائعة</a></li>
+                
+                <!-- هذا الزر سيظهر فقط داخل القائمة في الجوال -->
+                <li class="mobile-only-item">
+                    <a href="tel:+966505723947" class="nav-call-btn-mobile">
+                        <i class="fas fa-phone-alt"></i> اتصل الآن
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <!-- هذا الزر سيختفي في الجوال ويظهر في الكمبيوتر -->
+            <a href="tel:+966505723947" class="nav-call-btn desktop-only-btn">
+                <i class="fas fa-phone-volume"></i> اتصل الآن
+            </a>
+            <div class="menu-toggle" id="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </div>
+</header>
+
+    <!-- الواجهة (Hero) -->
+    <section id="home" class="hero">
+        <div class="hero-bg-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="badge-glow animate-up">
+                <span class="dot-pulse"></span> خدمة سريعة على مدار الساعة
+            </div>
+            <h1 class="animate-up">وايت مياه <span class="cyan-text">6 طن</span> بالرياض</h1>
+            <p class="animate-up delay-1">نصلك أينما كنت في جنوب وشرق الرياض بأجود أنواع المياه النقية للمنازل والمشاريع
+                والشركات.</p>
+            <div class="hero-btns animate-up delay-2">
+                <a href="tel:+966505723947" class="btn-main"><i class="fas fa-phone-alt"></i> اطلب صهريج الآن</a>
+                <a href="https://wa.me/966505723947" class="btn-wa"><i class="fab fa-whatsapp"></i> راسلنا واتساب</a>
+            </div>
+        </div>
+    </section>
+    <!-- 2. سكشن الإحصائيات (أرقام سُقيا الرياض) - يُوضع بعد الهيرو -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-item reveal">
+                <h3 class="counter">5000+</h3>
+                <p>خزان تم تعبئته</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3 class="counter">24</h3>
+                <p>ساعة عمل متواصلة</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3 class="counter">100%</h3>
+                <p>نقاء وجودة المياه</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. سكشن استخدامات الخدمة (لمن نقدم خدماتنا؟) - يُوضع قبل "من نحن" -->
+    <section id="use-cases" class="section-padding container">
+        <div class="section-title reveal">
+            <h2>نلبي كافة <span class="blue-text">احتياجاتكم</span></h2>
+        </div>
+        <div class="use-cases-grid">
+            <div class="use-card reveal">
+                <i class="fas fa-home"></i>
+                <h4>المنازل والفلل</h4>
+                <p>تعبئة خزانات المنازل بمياه تحلية عذبة وصالحة للاستخدام اليومي.</p>
+            </div>
+            <div class="use-card reveal">
+                <i class="fas fa-swimming-pool"></i>
+                <h4>المسابح والاستراحات</h4>
+                <p>توفير كميات مياه كبيرة لتعبئة المسابح في الاستراحات والشاليهات.</p>
+            </div>
+            <div class="use-card reveal">
+                <i class="fas far fa-building"></i>
+                <h4>مشاريع البناء</h4>
+                <p>توريد مياه للمباني تحت الإنشاء والمشاريع المعمارية بجنوب وشرق الرياض.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم من نحن -->
+    <section id="about" class="section-padding container">
+        <div class="grid-2 align-center">
+            <div class="about-image reveal">
+                <img src="https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?q=80&w=1000" alt="Water Truck">
+                <div class="exp-box">ثقة، سرعة، ونظافة</div>
+            </div>
+            <div class="about-text reveal">
+                <h4 class="blue-text">تعرف علينا</h4>
+                <h2>مؤسسة سُقيا الرياض للمياه</h2>
+                <p>نحن متخصصون في توريد المياه العذبة والنقية في مدينة الرياض. نمتلك أسطولاً من وايتات الـ 6 طن الحديثة،
+                    مما يتيح لنا سهولة الحركة داخل الأحياء والوصول إليكم في أسرع وقت ممكن.</p>
+                <ul class="check-list">
+                    <li><i class="fas fa-check-circle"></i> مياه تحلية صالحة للشرب وللمنازل.</li>
+                    <li><i class="fas fa-check-circle"></i> صهاريج مجهزة ونظيفة بشكل دوري.</li>
+                    <li><i class="fas fa-check-circle"></i> دقة في المواعيد والتزام تام بالطلبات.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم كيف تطلب؟ -->
+    <section id="process" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center reveal">
+                <h2>كيف تطلب <span class="blue-text">وايت ماء</span>؟</h2>
+                <p>خطوات بسيطة لنصلك أينما كنت</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-item reveal">
+                    <div class="p-num">1</div>
+                    <h3>تواصل معنا</h3>
+                    <p>اتصل بنا هاتفياً أو عبر الواتساب لتحديد نوع الطلب.</p>
+                </div>
+                <div class="process-item reveal">
+                    <div class="p-num">2</div>
+                    <h3>أرسل موقعك</h3>
+                    <p>أرسل لنا موقعك (اللوكيشن) لنوجه أقرب شاحنة إليك.</p>
+                </div>
+                <div class="process-item reveal">
+                    <div class="p-num">3</div>
+                    <h3>استلام المياه</h3>
+                    <p>يصلك السائق ويقوم بتعبئة الخزان بمياه نقية وعذبة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المميزات -->
+    <section id="features" class="section-padding container">
+        <div class="features-grid">
+            <div class="f-card reveal">
+                <i class="fas fa-truck-moving"></i>
+                <h3>وايت 6 طن</h3>
+                <p>الحجم الأنسب للأحياء الضيقة والفلل السكنية.</p>
+            </div>
+            <div class="f-card reveal">
+                <i class="fas fa-map-location-dot"></i>
+                <h3>جنوب وشرق الرياض</h3>
+                <p>تغطية شاملة لكافة الأحياء بسرعة استجابة عالية.</p>
+            </div>
+            <div class="f-card reveal">
+                <i class="fas fa-hand-holding-droplet"></i>
+                <h3>أسعار منافسة</h3>
+                <p>نقدم أفضل الأسعار مقابل خدمة توصيل متميزة ونظيفة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- الأسئلة الشائعة -->
+    <section id="faq" class="section-padding bg-light container">
+        <div class="section-title text-center reveal">
+            <h2>الأسئلة <span class="blue-text">الشائعة</span></h2>
+        </div>
+        <div class="faq-grid">
+            <div class="faq-item reveal">
+                <h4>ما هي المناطق التي تغطونها؟</h4>
+                <p>نغطي جميع أحياء جنوب وشرق الرياض (العزيزية، الدار البيضاء، السلي، حي النور، والنسيم وغيرها).</p>
+            </div>
+            <div class="faq-item reveal">
+                <h4>متى يصل الوايت بعد الطلب؟</h4>
+                <p>نسعى دائماً للوصول إليكم خلال ساعة واحدة فقط من تأكيد الطلب حسب حالة الزحام.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="areas" class="section-padding bg-light" style="margin-top: 20px;">
+        <div class="container">
+            <div class="section-title text-center reveal">
+                <h2>أحياء <span class="blue-text">نغطيها الآن</span></h2>
+                <p>نحن الأسرع وصولاً في هذه المناطق</p>
+            </div>
+            <div class="areas-flex reveal">
+                <span>العزيزية</span> <span>الدار البيضاء</span> <span>حي السلي</span>
+                <span>حي النور</span> <span>المناخ</span> <span>حي النسيم</span>
+                <span>إسكان الخرج</span> <span>المشاعل</span> <span>طريق الخرج</span>
+            </div>
+        </div>
+    </section>
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>سُقيا الرياض</h3>
+                <p>الاسم الأول في الرياض لتوريد المياه العذبة والنقية بأفضل الأسعار وأحدث الصهاريج.</p>
+            </div>
+            <div class="footer-col">
+                <h4>تواصل معنا</h4>
+                <p dir="ltr"><i class="fas fa-phone"></i> 0505723947</p>
+                <p dir="ltr"><i class="fab fa-whatsapp"></i> 0505723947</p>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            <p>&copy; 2026 سُقيا الرياض - جميع الحقوق محفوظة | تصميم GMTWEB</p>
+        </div>
+    </footer>
+
+    <!-- أزرار التواصل العائمة -->
+    <div class="floating-actions">
+        <a href="https://wa.me/966505723947" class="float-btn whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+966505723947" class="float-btn phone">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
