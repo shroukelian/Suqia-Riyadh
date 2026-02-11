@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    // 1. تشغيل قائمة الموبايل
     const menuBtn = document.getElementById('mobile-menu-btn');
     const navMenu = document.querySelector('.nav-links');
 
@@ -13,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // إغلاق القائمة عند الضغط على الروابط
     document.querySelectorAll('.nav-links a').forEach(link => {
         link.addEventListener('click', () => {
             navMenu.classList.remove('active');
@@ -23,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 2. أنيميشن السكرول (Scroll Reveal)
     const reveal = () => {
         const reveals = document.querySelectorAll('.reveal');
         reveals.forEach(el => {
@@ -32,11 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (elementTop < windowHeight - 100) {
                 el.classList.add('active');
             } else {
-                el.classList.remove('active'); // تكرار الأنيميشن
+                el.classList.remove('active'); 
             }
         });
     };
 
     window.addEventListener('scroll', reveal);
-    reveal(); // تشغيله عند التحميل الأول
+    reveal(); 
 });

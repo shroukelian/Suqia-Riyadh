@@ -464,7 +464,6 @@ body {
     }
 }
 
-/* --- أنيميشن التوهج للبادج (Neon Pulse) --- */
 .badge-glow {
     background: rgba(0, 174, 255, 0.2);
     border: 2px solid var(--secondary-blue);
@@ -498,7 +497,6 @@ body {
     width: 10px;
     height: 10px;
     background: #39ff14;
-    /* لون أخضر نشط */
     border-radius: 50%;
     position: relative;
 }
@@ -527,7 +525,6 @@ body {
     }
 }
 
-/* --- سكشن الإحصائيات --- */
 .stats-section {
     background: var(--primary-blue);
     color: white;
@@ -550,7 +547,6 @@ body {
     font-weight: 900;
 }
 
-/* --- سكشن الاستخدامات --- */
 .use-cases-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -579,7 +575,6 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
 
-/* --- سكشن الأحياء --- */
 .areas-flex {
     display: flex;
     flex-wrap: wrap;
@@ -604,21 +599,17 @@ body {
     color: #fff;
 }
 
-/* الموبايل */
 @media (max-width: 768px) {
     .stats-grid {
         grid-template-columns: 1fr;
         gap: 30px;
     }
 }
-/* --- إعدادات افتراضية (للكمبيوتر) --- */
 
-/* إخفاء زر الموبايل من الديسكتوب */
 .mobile-only-item {
     display: none;
 }
 
-/* زر الهيدر في الكمبيوتر */
 .desktop-only-btn {
     display: flex !important;
     align-items: center;
@@ -631,18 +622,15 @@ body {
     text-decoration: none;
 }
 
-/* --- إعدادات الموبايل (أقل من 768px) --- */
 @media (max-width: 768px) {
     
-    /* 1. إخفاء زر الاتصال من الهيدر */
     .desktop-only-btn {
         display: none !important;
     }
 
-    /* 2. إظهار زر الاتصال داخل القائمة الجانبية */
     .mobile-only-item {
         display: block !important;
-        margin-top: 20px; /* مسافة لتمييزه عن الروابط الأخرى */
+        margin-top: 20px; 
     }
 
     .nav-call-btn-mobile {
